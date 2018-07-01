@@ -33,12 +33,10 @@ while(x <= row){
  $("#pixelCanvas").append("<tr></tr>");
   x++;
   }
-  let y=1;
-while(y <= col){
-
+ for(let y=0; y<col; y++){
 $("tr").append("<td></td>");
   
-  y++;}
+}
   
 }
 
